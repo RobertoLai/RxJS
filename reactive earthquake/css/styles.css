@@ -1,0 +1,42 @@
+#map {
+  height: 500px;
+  width: 100%;
+  margin-top:5px;
+}
+body {
+  padding: 10px;
+  margin: 10px;
+}
+.legend{
+  padding:5px;
+}
+
+blockquote{
+  font-size:12px;
+}
+.quakes_info { font-size:12px;}
+.quakes_info tr:nth-child(even) {background: #CCC;}
+.quakes_info tr:nth-child(odd) {background: #FFF;}
+.quakes_info td {padding:5px}
+
+.tableContainer{
+  margin-top:5px;
+  padding-left:5px;
+  padding-right:5px;
+  max-height:500px;
+  overflow-y:scroll;
+}
+#tQuakes thead {
+  display:block;
+  background-color: #337ab7;
+  color:white;
+  padding:5px;
+}
+#tQuakes tbody {
+  display:block;
+}
+#tQuakes thead th {
+  background-color: #337ab7;
+  color:white;
+  padding:5px;
+}
