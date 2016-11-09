@@ -1,3 +1,3 @@
 # RxJS
 
-# Exemples of reactive programming with RxJS
+## Exemples of reactive programming with RxJS
