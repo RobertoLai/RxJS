@@ -4,4 +4,22 @@
 let value = 1000;
 console.log(value);
 
+class foo {
+  constructor() {}
+
+  m1() {
+    console.log("method1");
+  }
+
+  m2() {
+    console.log("method2");
+  }
+}
+
+const cl1 = new foo();
+cl1.m1();
+cl1.m2();
+
+[1, 2, 3].map(n => n + 1);
+
 },{}]},{},[1]);
